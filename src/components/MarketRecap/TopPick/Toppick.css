@@ -1,0 +1,43 @@
+.recap-data {
+  font-size: 1rem;
+}
+
+.coin-image {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 3px;
+}
+
+.learn-more {
+  background-color: slategray;
+  font-size: 1rem;
+}
+
+.learn-more button{
+    background-color: slategray;
+    border: none;
+}
+
+.learn-more button a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.learn-more button a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+/* Moblie CSS */
+@media (max-width: 576px) {
+  .recap-data .coin-image {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 3px;
+  }
+
+  .recap-data h6 {
+    font-size: 1rem;
+  }
+}

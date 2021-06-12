@@ -1,0 +1,13 @@
+.video-frame{
+   height: 150px;
+   width: 250px; 
+   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.500);
+}
+
+/* Tablet CSS */
+@media (max-width: 768px){
+    .video-frame{
+        height: 100px;
+        width: 150px;
+    }
+}

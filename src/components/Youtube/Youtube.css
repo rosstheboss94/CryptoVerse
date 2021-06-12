@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap'); /*'Sigmar One', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap'); /*'Squada One', cursive;*/
+
+.youtube p{
+    color: black;
+    font-family: 'Squada One', cursive;
+}
+
+.youtube-logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.bg{
+    background-color: white;
+}
+
+.youtube h3{
+    font-family: 'Sigmar One', cursive; 
+}
+.youtube h5{
+    color: black;
+    font-family: 'Squada One', cursive;
+}
+
+.youtube{
+    background: url("../../images/section-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Mobile CSS */
+@media (max-width: 576px){
+    .youtube h3{
+        font-size: 1.5rem;
+    }
+
+    .youtube p{
+        font-size: .7rem;
+    }
+
+    .youtube-logo{
+        width: 3rem;
+        height: 3rem;
+    }
+}

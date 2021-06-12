@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap'); /*'Sigmar One', cursive;*/
+
+.footor{
+    background-color: black;
+    border-top: 1px solid #a55eea;
+    
+}
+
+.footor h3{
+    color: white;
+    font-family: 'Sigmar One', cursive;
+}
+
+.socials-img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10%;
+    margin: 0 1rem;
+}
+
+.socials-img:hover {
+    opacity: 75%;
+}
+
+@media (max-width: 576px){
+    .footor h3{
+        font-size: 1rem;
+    }
+}
